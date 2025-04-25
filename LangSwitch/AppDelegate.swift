@@ -38,7 +38,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         // Register for Fn button press events
         NSEvent.addGlobalMonitorForEvents(matching: .flagsChanged) { event in
-            guard event.keyCode == 63 else {
+            guard event.keyCode == 57 else {
                 return
             }
 
